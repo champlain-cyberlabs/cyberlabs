@@ -40,7 +40,8 @@ All lab guides are available online within this GitHub Page and are linked below
 **Intermediate**
 
 **Advanced**
-___
+
+---
 
 ### Authors
 

@@ -25,6 +25,19 @@ possible. This will allow you to revert it to a clean slate after
 completing the lab, allowing you to reuse the same machine after this
 lab.
 
+### Custom Lab Configuration
+
+For this lab, customization is an option for presenting alternate environments from the one pre-configured in `system-hardening.ps1`. 
+
+[`Set-LocalSecurityPolicy.psm1`](https://github.com/brandon-wilbur/cyberlabs/blob/v1.0/windows-scripts/system-hardening/Set-LocalSecurityPolicy.psm1) has been provided to automate the process of making custom local security policy configurations for easy modification of the provided script. To use a custom local security policy, run the following PowerShell commands on a Virtual Machine from the directory where `Set-LocalSecurityPolicy.psm1` has been downloaded:
+
+```
+Import-Module .\Set-LocalSecurityPolicy.psm1
+Set-LocalSecurityPolicy
+```
+
+This will output the file `base64-encoded-policy.txt` to a specified location. Open this file and pull out the value of the variable `$EncodedSecpol`. This value can replace the default `$secpolicy` variable located in `system-hardening.ps1` to configure custom security policies.
+
 ### Windows 10 Setup:
 
 This lab requires a Windows 10 workstation virtual machine.

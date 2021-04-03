@@ -7,7 +7,7 @@ purposes. Do not run this outside of a virtual environment.**
 <u>Requirements:</u>
 
 -   Windows 10 virtual machine (VM) with network connectivity
--   Lab 6 PowerShell script archive
+-   System Hardening PowerShell script archive
 
 ## Lab Setup:
 

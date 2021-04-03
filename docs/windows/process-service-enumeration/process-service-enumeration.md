@@ -7,7 +7,7 @@ purposes. Do not run this outside of a virtual environment.**
 <u>Requirements:</u>
 
 -   Windows 10 virtual machine (VM) with network connectivity
--   Lab 5 PowerShell script archive
+-   Process and Service Enumeration PowerShell script archive
 
 ## Lab Setup:
 

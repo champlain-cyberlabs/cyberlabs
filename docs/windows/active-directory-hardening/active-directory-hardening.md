@@ -8,7 +8,7 @@ purposes. Do not run this outside of a virtual environment.**
 
 -   Windows 10 virtual machine (VM) with network connectivity
 -   Windows Server 2019 virtual machine (VM) with network connectivity
--   Lab 4 PowerShell scripts archive
+-   Active Directory Hardening PowerShell scripts archive
 
 ## Lab Setup:
 

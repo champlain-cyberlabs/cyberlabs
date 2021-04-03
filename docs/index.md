@@ -27,25 +27,35 @@ Alternatively, download the latest archive of PowerShell scripts from [the relea
 ### Available Labs
 
 **Beginner**
-* [Windows 10 Software Auditing](windows/software-auditing/software-auditing.md)
-* [Windows 10 System Hardening](windows/system-hardening/system-hardening.md)
+* [Software Auditing](windows/software-auditing/software-auditing.md)
+* [System Hardening](windows/system-hardening/system-hardening.md)
 
 **Intermediate**
-* [Windows 10 Misconfigured Services](windows/misconfigured-services/misconfigured-services.md)
-* [Windows Server WebShells](windows/windows-server-webshells/windows-server-webshells.md)
+* [Misconfigured Services](windows/misconfigured-services/misconfigured-services.md)
+* [WebShells](windows/windows-server-webshells/windows-server-webshells.md)
 
 **Advanced**
 * [Active Directory Hardening](windows/active-directory-hardening/active-directory-hardening.md)
-* [Windows 10 Persistence and Privilege Escalation](windows/persistence-and-privilege-escalation/persistence-and-privilege-escalation.md)
-* [Windows 10 Process and Service Enumeration](windows/process-service-enumeration/process-service-enumeration.md)
+* [Persistence and Privilege Escalation](windows/persistence-and-privilege-escalation/persistence-and-privilege-escalation.md)
+* [Process and Service Enumeration](windows/process-service-enumeration/process-service-enumeration.md)
 
 ## Linux
 
+### Linux Lab Setup
+
+To configure a Linux lab environment, download the associated virtual machine for the lab directly from each lab guide. Installation instructions are included before each lab.
+
 **Beginner**
+* SMTP Server
+
 
 **Intermediate**
+* [Privilege Escalation](linux/privilege-escalation/privilege-escalation.md)
+* WebShells
+* CRON, Services, Processes and Devices
 
 **Advanced**
+* WordPress
 
 ## Packet Tracer
 

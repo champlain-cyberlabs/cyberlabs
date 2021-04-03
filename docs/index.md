@@ -14,7 +14,7 @@ All lab guides are available online within this GitHub Page and are linked below
 
 ### Windows Lab Setup
 
-To get started on setting up a Windows lab environment, either clone this repository on a machine with `git` installed:
+To get started on setting up a Windows lab environment, clone this repository on a machine with `git` installed:
 
 ```
 git clone https://github.com/brandon-wilbur/cyberlabs

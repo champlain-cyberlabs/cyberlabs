@@ -48,8 +48,7 @@ To configure a Linux lab environment, download the associated virtual machine fo
 ### Available Linux Labs
 
 **Beginner**
-* SMTP Server
-
+* [SMTP Server](linux/smtp-server/smtp-server.md)
 
 **Intermediate**
 * [Privilege Escalation](linux/privilege-escalation/privilege-escalation.md)

@@ -51,7 +51,7 @@ To configure a Linux lab environment, download the associated virtual machine fo
 
 **Intermediate**
 * [Privilege Escalation](linux/privilege-escalation/privilege-escalation.md)
-* WebShells
+* [WebShells](linux/webshells/webshells.md)
 * CRON, Services, Processes and Devices
 
 **Advanced**

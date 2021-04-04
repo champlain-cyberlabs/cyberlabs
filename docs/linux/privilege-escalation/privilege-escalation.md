@@ -1,4 +1,4 @@
-#  Privilege Escalation Lab
+# Privilege Escalation Lab
 
 ## Download and Setup Instructions:
 

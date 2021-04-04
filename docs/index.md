@@ -55,7 +55,7 @@ To configure a Linux lab environment, download the associated virtual machine fo
 * CRON, Services, Processes and Devices
 
 **Advanced**
-* WordPress
+* [WordPress](linux/wordpress/wordpress.md)
 
 ## Packet Tracer
 

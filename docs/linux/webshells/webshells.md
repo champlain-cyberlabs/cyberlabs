@@ -86,7 +86,7 @@ web browser type in either the IP address of the machine, or one of these option
 
 ```
 127.0.0.1
-http://cyberpatriot*
+http://cyberpatriot
 ```
 
 You see before a pretty basic looking webpage, and four different links
@@ -248,6 +248,7 @@ earlier, so how about we try this out again. Let's try to use the `ls`
 command:
 
 **Query:** `?code=ls`
+
 **Full:** `http://cyberpatriot/Base64.php?code=ls`
 
 Nothing worked this time though, it just gave us the encoded string of

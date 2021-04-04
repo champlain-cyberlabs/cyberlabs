@@ -244,7 +244,7 @@ The specific file for your flower may be different than mine, so keep
 that in mind! In order to pull this up through a web browser, in the web
 browser put this into the search bar:
 
-[<u>**http://cyberpatriot/wp-content/uploads/flower.jpg**</u>](http://ipaddress/wp-content/uploads/flower.jpg)
+[<u>http://cyberpatriot/wp-content/uploads/flower.jpg</u>](http://ipaddress/wp-content/uploads/flower.jpg)
 
 Example:
 [<u>http://cyberpatriot/wp-content/uploads/1604271248\_Flower.jpeg</u>](http://192.168.235.145/wp-content/uploads/1604271248_Flower.jpeg)

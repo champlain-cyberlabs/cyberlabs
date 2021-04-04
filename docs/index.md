@@ -24,7 +24,7 @@ git clone https://github.com/brandon-wilbur/cyberlabs
 
 Alternatively, download the latest archive of PowerShell scripts from [the releases section](https://github.com/brandon-wilbur/cyberlabs/releases) of this repository. All releases are protected with the password `infected` for easy download without the need to configure Antivirus exclusions. Unzip this archive in a virtual machine with Antivirus disabled to ensure that scripts run successfully.
 
-### Available Labs
+### Available Windows Labs
 
 **Beginner**
 * [Software Auditing](windows/software-auditing/software-auditing.md)
@@ -44,6 +44,8 @@ Alternatively, download the latest archive of PowerShell scripts from [the relea
 ### Linux Lab Setup
 
 To configure a Linux lab environment, download the associated virtual machine for the lab directly from each lab guide. Installation instructions are included before each lab.
+
+### Available Linux Labs
 
 **Beginner**
 * SMTP Server

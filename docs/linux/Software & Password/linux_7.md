@@ -32,7 +32,7 @@ then click on **Power on this Virtual Machine**.
 
 <img src="Lab 7 Media\media\image1.png" style="width:4.380208880139983in;height:4.204172134733159in" />
 
-**User Accounts:**
+## User Accounts:
 
 For this lab, we will be using Revy, while switching between the others
 when needed. This lab will primarily only be using this specific user,
@@ -40,31 +40,28 @@ however if you need access to the other account, it will be provided
 here.
 
 -   Revy - Administrator
-
-    -   User Login: Revy
-
-    -   Password: Jitterbug4
+    -   User Login: `Revy`
+    -   Password: `Jitterbug4`
 
 -   Rock - Local User
+    -   User Login: `Rock`
+    -   Password: `Lagoon001`
 
-    -   User Login: Rock
-
-    -   Password: Lagoon001
-
-**Housekeeping before jumping into the lab:**
+### Housekeeping before jumping into the lab:
 
 Once logged in as Revy, make sure to run this command to make sure your
 systems are up to date/your box is connected. Also, make sure to take
 note of the IP your machine gives you here, you will need to use it a
 lot in this lab:
 
-**dhclient\
-Ipaddr**
+```
+dhclient
+ip addr
+sudo apt update
+sudo apt update
+sudo apt upgrade
+```
 
-**sudo apt update\
-sudo apt update\
-sudo apt upgrade**\
-\
 The focus of this lab is to cover not only ways of installing
 applications but password hardening of a Linux box in order to try and
 make it as safe as possible. These steps should be done on almost all
@@ -80,14 +77,14 @@ to have on them. It will be your job as Revy to go ahead and look
 through the various ways of looking at installed software, and determine
 what applications that you may need to go ahead and get rid of.
 
-**How to find installed applications/software:**
+## How to find installed applications/software:
 
 Within Linux there are plenty of different ways you can not only look at
 the applications that you have installed, but also ways you can get
 applications installed. One of the most common ways you may think of is
 going ahead and installing an application from a website, such as what
 you would do with a SSH application such as PuTTY. However, with Linux,
-it\'s not as easy as downloading an installer, and going through a
+it's not as easy as downloading an installer, and going through a
 wizard. While that is there for most cases, oftentimes with Linux you
 get applications with **tar** packages, or tape archives. Essentially
 all these are collections of files that are highly compressed,

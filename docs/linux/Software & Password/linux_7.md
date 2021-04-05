@@ -222,14 +222,11 @@ removing. Do not look below the three hints until you believe that you
 have found them but you may look if you want to confirm the commands you
 would use to remove them!
 
-1)  The first application that you will be removing was covered within
-    > the TAR section
+1)  The first application that you will be removing was covered within the TAR section
 
-2)  The second application is where this lab guide is being hosted right
-    > now
+2)  The second application is where this lab guide is being hosted right now
 
-3)  The third application contains the word messaging in its dpkg
-    > description
+3)  The third application contains the word messaging in its dpkg description
 
 4)  The fourth application is all about movies
 
@@ -244,30 +241,34 @@ application. All three of these applications are currently unneeded for
 the system, and should be removed promptly. To do so, go ahead and run
 the commands of:
 
-**sudo apt remove git-all**
+```
+sudo apt remove git-all
 
-**sudo apt remove putty**
+sudo apt remove putty
 
-**sudo apt remove telegram-desktop**
+sudo apt remove telegram-desktop
 
-**sudo apt remove mplayer**
+sudo apt remove mplayer
+```
 
 Once you have done this, go ahead and use the **purge** command to make
 sure all of the files associated with them are gone as well:
 
-**sudo apt purge git-all**
+```
+sudo apt purge git-all
 
-**sudo apt purge putty**
+sudo apt purge putty
 
-**sudo apt purge telegram-desktop**
+sudo apt purge telegram-desktop
 
-**sudo apt purge mplayer**
+sudo apt purge mplayer
+```
 
 Now that you have done that, feel free to use any of the **clean**
 commands we covered above! With this we are done with the APT section of
 this lab.
 
-**Snap:**
+## Snap:
 
 There are multiple ways that you can install applications using packages
 in Linux. You may not realize why we would need another method to do so
@@ -299,7 +300,7 @@ it as an alternative to APT at the moment. However, if this is not the
 case, you will actually need to use APT to install snap, this is done
 with **sudo apt install snapd**. Once you do this you will need to make
 sure that it is enabled, and to do this, run the command **sudo
-systemctl enable \--now snapd.socket**. Not only does this ensure that
+systemctl enable --now snapd.socket**. Not only does this ensure that
 snap works, but will always automatically start upon boot of your
 machine.
 
@@ -307,11 +308,10 @@ How do you find applications using snap though? Well, there is an
 official Snap website from Ubuntu that lists plenty of the applications
 you can download, however there is also a CLI command you can run in
 order to find specific packages. Lets go ahead and search for VLC a
-media player and see what comes up!\
-\
-![](Lab 7 Media\media\image7.png){width="6.5in"
-height="1.5555555555555556in"}\
-\
+media player and see what comes up!
+
+<img src="Lab 7 Media\media\image7.png" style="width:6.5in;height:1.5555555555555556in" />
+
 As you can see from above, we found a lot more than just VLC, this is
 because with the snap find command, it finds all matching content with
 that search query, however the first one listed is the one that we were
@@ -330,8 +330,7 @@ that were installed alongside the installation of the OS, however, by
 looking at the packages listed from this, you can get a pretty good idea
 of what snap packages were installed onto here.
 
-![](Lab 7 Media\media\image10.png){width="6.5in"
-height="1.1111111111111112in"}
+<img src="Lab 7 Media\media\image10.png" style="width:6.5in;height:1.1111111111111112in" />
 
 If you want an easier way of tracking the new ones installed, you are in
 luck! There is another command that lists a history of the snap command
@@ -339,16 +338,14 @@ on your system, this is the **snap changes** command. Using these two
 commands you can get conclusive evidence of what applications were
 installed on here!
 
-![](Lab 7 Media\media\image2.png){width="6.5in"
-height="1.2638888888888888in"}
+<img src="Lab 7 Media\media\image2.png" style="width:6.5in;height:1.2638888888888888in" />
 
 Believe it or not, there is indeed another way you can view most of your
 snap packages! That is via the Ubuntu Software Centre! Go ahead and look
 on the right hand side of your screen, and look for an orange shopping
 bag of sorts, it should look like this!
 
-![](Lab 7 Media\media\image8.png){width="0.8020833333333334in"
-height="5.635416666666667in"}
+<img src="Lab 7 Media\media\image8.png" style="width:0.8020833333333334in;height:5.635416666666667in" />
 
 Go ahead and click on this to open it, and when you do you should be
 greeted with a lovely GUI application store! From here, you can download
@@ -357,8 +354,7 @@ section we are looking for in particular is the Installed option at the
 top. Go ahead and click on there to see all of these applications, as
 well as the ones that were installed via Snap!
 
-![](Lab 7 Media\media\image9.png){width="6.5in"
-height="3.6944444444444446in"}
+<img src="Lab 7 Media\media\image9.png" style="width:6.5in;height:3.6944444444444446in" />
 
 From all of these listing options, we can get a good idea of what
 applications were installed onto here, the first one being Discord,
@@ -375,16 +371,17 @@ In order to remove snap packages, run the command of **sudo snap
 remove**, for all of the applications listed here, it will look like
 this:
 
-**sudo snap remove discord**
+```
+sudo snap remove discord
 
-**sudo snap remove sublime-text**
+sudo snap remove sublime-text
 
-**sudo snap remove nightfall-hacker**
+sudo snap remove nightfall-hacker
 
-**sudo snap remove brave**
+sudo snap remove brave
 
-**sudo snap remove spotify**
-
+sudo snap remove spotify
+```
 Certain packages may take longer as they are bigger than others, however
 once you do this, you do not have to do any purging or cleaning like you
 have to do with APT as these are all stored in there own separate
@@ -397,7 +394,7 @@ We have gotten rid of most of these applications so far, however there
 is one last one we will need to cover in order to make sure all of the
 applications have been removed.
 
-**Flatpak:**
+## Flatpak:
 
 Flatpak is the newest attempt at a universal packaging format that is
 currently being used. It aims to provide cross platform solutions to
@@ -417,15 +414,14 @@ flatpak**, but seeing as Rock already installed something with flatpak,
 we do not need to worry about this. Once we have done this, we need to
 actually connect Flatpak to Flathub, its most popular repository at the
 moment, to do this you will need to run this command **flatpak
-remote-add \--if-not-exists flathub
+remote-add --if-not-exists flathub
 [[https://flathub.org/repo/flathub.flatpakrepo]{.ul}](https://flathub.org/repo/flathub.flatpakrepo).**
 You may have to run this as Revy, and once this is done you can go ahead
 and begin searching ro applications if you would like, such as
 libreoffice! To do this run, **sudo flatpak search libreoffice** and you
 should be able to see it clearly!
 
-![](Lab 7 Media\media\image3.png){width="6.5in"
-height="0.2777777777777778in"}
+<img src="Lab 7 Media\media\image3.png" style="width:6.5in;height:0.2777777777777778in" />
 
 If you would want to then install the package after finding this, you
 would go ahead and run the command of **flatpak install flathub
@@ -437,8 +433,7 @@ that were installed on our machine.
 To see all of the Flatpak packages installed on our machine, run the
 command of **sudo flatpak list** to see all of them!
 
-![](Lab 7 Media\media\image14.png){width="6.5in"
-height="1.0416666666666667in"}
+<img src="Lab 7 Media\media\image14.png" style="width:6.5in;height:1.0416666666666667in" />
 
 Not much is listed here! I can say soundly that the bottom three are the
 ones that get installed when Flatpak is installed, and the top one is
@@ -459,10 +454,9 @@ will list all of the most recently used apt commands that feature
 install within the command, very useful to track some of these
 applications that were installed locally on the machine a bit quicker.
 
-![](Lab 7 Media\media\image12.png){width="6.5in"
-height="0.4305555555555556in"}
+<img src="Lab 7 Media\media\image12.png" style="width:6.5in;height:0.4305555555555556in" />
 
-**Password Hardening:**
+## Password Hardening:
 
 Before we call it a day with this lab, I want to run over some quick
 password hardening for our machine. Firstly though, these mistakes were
@@ -478,8 +472,8 @@ our system is to create a Password Policy and enforce it! To do this we
 are going to need to install the **pwquality** application, which
 provides us a way to configure our password quality requirements for our
 system! This will make it so our passwords are always as secure as the
-Admin wants them to be!\
-\
+Admin wants them to be!
+
 To get this ready, we need to run the command **sudo apt-get -y install
 libpam-pwquality cracklib-runtime**, this will give us all of the
 packages we need in order to create a Password Policy! Now we need to
@@ -488,18 +482,16 @@ file. Open up any text editor you would like, and navigate to the
 **/etc/pam.d/common-password** file. It should look like this when you
 open it up.
 
-![](Lab 7 Media\media\image6.png){width="6.246057524059492in"
-height="3.6533541119860016in"}
+<img src="Lab 7 Media\media\image6.png" style="width:6.246057524059492in;height:3.6533541119860016in" />
 
 In here, we are going to need to change a specific line, that being the
 line that mentions **password requisite pam_pwqaulity.so retry=3.** We
 are going to change a lot of this, in the end it should look like the
 image below:
 
-![](Lab 7 Media\media\image4.png){width="6.5in"
-height="0.4861111111111111in"}
+<img src="Lab 7 Media\media\image4.png" style="width:6.5in;height:0.4861111111111111in" />
 
-What do these changes do however? Well let\'s take it one at a time. The
+What do these changes do however? Well let's take it one at a time. The
 retry=3 allows the user 3 times to enter the password before an error.
 minlen=8 means the length can not be less than 8 words. maxrepeat=3
 allows three characters to be repeated in a row. The next set of
@@ -509,18 +501,19 @@ character, digit character and other characters. difok=3 makes the
 number of characters in the new password that must have not been present
 in the old password. We then have the geoscheck=1 which makes it check
 for words in the /etc/passwd entry that are not in the current password.
-reject_username makes it so you can\'t have the username forwards or
+reject_username makes it so you can't have the username forwards or
 backwards in the password and finally enforce_for_root makes sure this
 applies to the root user as well!
 
 With all of this set, go ahead and do a **sudo reboot** to apply our
 policy. After we have done this and our system is back up and running,
-we can give it an attempt! Let\'s make a new user **sudo useradd
-Dutch**, and after we do this, let\'s try to give him a weak password
+we can give it an attempt! Let's make a new user **sudo useradd
+Dutch**, and after we do this, let's try to give him a weak password
 with a sudo **passwd test**, and we can then see what happens when we
 attempt to do this!
 
-![](Lab 7 Media\media\image11.png){width="6.5in" height="2.0in"}
+<img src="Lab 7 Media\media\image11.png" style="width:6.5in;height:2.0in" />
+
 
 Our last Password change we want to complete here lies within the file
 of **/etc/login.defs**, go ahead and use a text editor to gain access
@@ -530,5 +523,4 @@ only keep a password for 30 days before needing to change it! With these
 two policies intact, our passwords are now quite safe as well as our
 machine!
 
-![](Lab 7 Media\media\image5.png){width="2.932292213473316in"
-height="0.9007688101487314in"}
+<img src="Lab 7 Media\media\image5.png" style="width:2.932292213473316in;height:0.9007688101487314in" />

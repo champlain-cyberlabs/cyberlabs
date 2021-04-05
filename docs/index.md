@@ -53,7 +53,7 @@ To configure a Linux lab environment, download the associated virtual machine fo
 **Intermediate**
 * [Privilege Escalation](linux/privilege-escalation/privilege-escalation.md)
 * [WebShells](linux/webshells/webshells.md)
-* CRON, Services, Processes and Devices
+* [CRON, Services, Processes and Devices](linux/cron-services-processes-devices/cron-services-processes-devices.md)
 
 **Advanced**
 * [WordPress](linux/wordpress/wordpress.md)

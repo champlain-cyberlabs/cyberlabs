@@ -225,7 +225,7 @@ our first section of Packet Tracer.
 
 ## Communicating between Two End Devices using Static Routing
 ### Video to coniside with this part of the lab
-{% include googleDrivePlayer.html id=page.1Vq0p8L40-Og95vsTl4rVkVtJ80d40lXi/preview %}
+{% include googleDrivePlayer.html id=page.1Vq0p8L40-Og95vsTl4rVkVtJ80d40lXi/view %}
 
 We are going to be starting this section off on a clean slate, so in
 order to create a new packet tracer instance, go ahead and go up to the

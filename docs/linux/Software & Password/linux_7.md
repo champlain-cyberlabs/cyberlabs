@@ -105,7 +105,7 @@ other labs previously and even at the start of this one, I have
 mentioned that you may need to update the system by using this command,
 but what is apt-get?
 
-**APT:**
+## APT:
 
 To get to the bottom of this, we would first need to explain what Ubuntu
 is! Ubuntu is derived from Debian which is a form of Linux that uses the
@@ -126,10 +126,9 @@ wanted to find any new packages, you would use the command
 
 If you want to go ahead and look at what has been installed on the
 system using this command, you would want to go ahead and use the
-command **apt list \--installed** to get the general idea!
+command **apt list --installed** to get the general idea!
 
-![](Lab 7 Media\media\image15.png){width="3.9129013560804897in"
-height="3.0481714785651794in"}
+<img src="Lab 7 Media\media\image15.png" style="width:3.9129013560804897in;height:3.0481714785651794in" />
 
 As you can see from the image above, there are quite a lot of commands
 that are listed here! Most of the ones that you will find here as
@@ -142,13 +141,12 @@ If you would want to go ahead and search for a specific package, you can
 do this by using the **grep** command to filter out the specific package
 you may be looking for! Lets go ahead and try to find an application
 that we know should be installed by default, Firefox. Go ahead and run
-the command **apt list \--installed \| grep firefox** this will run the
+the command **apt list --installed | grep firefox** this will run the
 apt list command previously talked about, while also adding in grep to
 search for any packages mentioning Firefox directly. It should give you
 an output similar to this!
 
-![](Lab 7 Media\media\image16.png){width="6.5in"
-height="5.069444444444445in"}
+<img src="Lab 7 Media\media\image16.png" style="width:6.5in;height:5.069444444444445in" />
 
 This can be done in an alternative way as well that is more quiet and
 would not be picked up as easily if you were trying to do this covertly,
@@ -168,8 +166,7 @@ not know what it does immediately, or if you are suspicious if it is
 malicious or not. Also, you can combine grep with his command as well in
 order to try and find packages!
 
-![](Lab 7 Media\media\image13.png){width="6.5in"
-height="4.152777777777778in"}
+<img src="Lab 7 Media\media\image13.png" style="width:6.5in;height:4.152777777777778in" />
 
 Once you have found out what applications you do not want to have on
 your Linux box, it comes to the time of getting rid of them. In order to
@@ -214,7 +211,7 @@ There are various GUI versions of this such as CCleaner, but they are
 not always present within a system, and if you need to automate
 something, these commands are much more useful!
 
-**Finding APT applications that were installed:**
+## Finding APT applications that were installed:
 
 Now that you have the rundown on the ins and the outs of APT, it is your
 job to go ahead and search out the four applications that Rock installed
@@ -236,7 +233,7 @@ would use to remove them!
 
 4)  The fourth application is all about movies
 
-**Answers:**
+## Answers:
 
 The three applications you were looking for were PuTTY, GIT and
 Telegram. All three of these applications were not supposed to be

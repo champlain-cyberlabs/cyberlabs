@@ -49,7 +49,7 @@ To configure a Linux lab environment, download the associated virtual machine fo
 
 **Beginner**
 * [SMTP Server](linux/smtp-server/smtp-server.md)
-* [Software Deep Dive & Password Hardening](linux/Software%20%26%20Password/linux_7.md)
+* [Software Deep Dive & Password Hardening](linux/software-password-hardening/software-password-hardening.md)
 
 **Intermediate**
 * [Privilege Escalation](linux/privilege-escalation/privilege-escalation.md)

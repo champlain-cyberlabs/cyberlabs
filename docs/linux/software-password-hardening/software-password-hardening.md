@@ -1,4 +1,4 @@
-# Linux Lab Guide 7 - Software Deep Dive & Password Hardening
+# Linux Software Deep Dive & Password Hardening Lab
 
 ## Download and Setup Instructions:
 

@@ -30,8 +30,7 @@ Disk** space the VM is taking up, as you would not need too much for
 this. Once checked out you should be good to go, by clicking **Ok**, and
 then click on **Power on this Virtual Machine**.
 
-![](Lab 7 Media\media\image1.png){width="4.380208880139983in"
-height="4.204172134733159in"}\
+<img src="Lab 7 Media\media\image1.png" style="width:4.380208880139983in;height:4.204172134733159in" />
 
 **User Accounts:**
 

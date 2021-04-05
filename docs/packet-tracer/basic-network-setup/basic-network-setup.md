@@ -1,4 +1,4 @@
-# Lab Guide 1 - Packet Tracer
+# Basic Network Setup - Packet Tracer
 
 ## Download and Setup Instructions:
 

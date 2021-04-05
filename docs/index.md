@@ -54,7 +54,7 @@ To configure a Linux lab environment, download the associated virtual machine fo
 * [Privilege Escalation](linux/privilege-escalation/privilege-escalation.md)
 * [WebShells](linux/webshells/webshells.md)
 * CRON, Services, Processes and Devices
-* [Software Deep Dive & Password Hardening](linux/Software_&_Password/linux_7.md)
+* [Software Deep Dive & Password Hardening](linux/Software%20%26%20Password/linux_7.md)
 
 **Advanced**
 * [WordPress](linux/wordpress/wordpress.md)

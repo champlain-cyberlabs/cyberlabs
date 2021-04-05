@@ -1,21 +1,26 @@
-## **Linux Lab Guide 7 - Software Deep Dive & Password Hardening** 
+# Linux Lab Guide 7 - Software Deep Dive & Password Hardening
 
-**Download and Setup Instructions:\
-**Before starting the lab, make sure you downloaded the ZIP file
+## Download and Setup Instructions:
+
+[**Virtual Machine Download Link**](https://drive.google.com/file/d/1lEOqQt9vBNzpvcjZDZ3YoHCanbbbIwwW/view?usp=sharing)
+
+---
+
+Before starting the lab, make sure you downloaded the ZIP file
 provided to you. When you do that, begin to unzip the file and place the
 folder wherever appropriate. These following instructions assume you are
 using a VMware Workstation Client, however most of these instructions
-are easy to follow no matter what VM client you use.\
-\
+are easy to follow no matter what VM client you use.
+
 Go to the **File** tab in the upper left hand corner of the window, once
 you have clicked it, a drop down menu will appear. From there, click on
 **Open**. It should then open up a file explorer, navigate to where you
-put your VM's and do either of the following. Click on the Sprint6_Cyber
-Patriot.vmx image and it should appear within your client. If that does
-not work, click on the Sprint 6_Cyber PatriotVM.ovf, from there it will
+put your VM's and do either of the following. Click on the `Sprint7_Cyber
+Patriot.vmx` image and it should appear within your client. If that does
+not work, click on the `Sprint 7_Cyber PatriotVM.ovf`, from there it will
 open up an import menu, where you can name your VM and choose where to
-store it.\
-\
+store it.
+
 Once you have chosen both of these click on the **Import** button, and
 the VM should appear for you! Once you have the VM in front of you,
 click on the **Edit Virtual Machine Settings**, here is where the
@@ -23,10 +28,11 @@ settings for the VM are. Below is an image showing what your VMs
 settings should be, if needed you can always turn down how much **Hard
 Disk** space the VM is taking up, as you would not need too much for
 this. Once checked out you should be good to go, by clicking **Ok**, and
-then click on **Power on this Virtual Machine**.\
+then click on **Power on this Virtual Machine**.
+
 ![](Lab 7 Media\media\image1.png){width="4.380208880139983in"
 height="4.204172134733159in"}\
-\
+
 **User Accounts:**
 
 For this lab, we will be using Revy, while switching between the others

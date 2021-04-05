@@ -6,7 +6,7 @@ Welcome to Cyberlabs - a set of cybersecurity training resources focusing on hos
 
 Lab guides with links to resources are all available here:
 
-[Cyberlabs Github Page](https://brandon-wilbur.github.io/cyberlabs)
+[Cyberlabs Github Page](https://champlain=cyberlabs.github.io/cyberlabs)
 
 ___
 

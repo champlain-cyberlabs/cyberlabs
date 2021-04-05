@@ -60,7 +60,14 @@ To configure a Linux lab environment, download the associated virtual machine fo
 
 ## Packet Tracer
 
+### Packet Tracer Lab Setup
+
+Ensure that Packet Tracer is installed. Labs will guide the creation of networks within blank packet tracer files.
+
+### Available Packet Tracer labs
+
 **Beginner**
+* [Basic Network Setup](packet-tracer/basic-network-setup/basic-network-setup.md)
 
 **Intermediate**
 

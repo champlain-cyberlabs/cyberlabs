@@ -224,8 +224,7 @@ communication can sometimes drop. With this done, we are finished with
 our first section of Packet Tracer.
 
 ## Communicating between Two End Devices using Static Routing
-### Video to coniside with this part of the lab <iframe src="https://drive.google.com/file/d/1Vq0p8L40-Og95vsTl4rVkVtJ80d40lXi/view?usp=sharing"
-width="640" height="480" allowfullscreen></iframe>
+### Video to coniside with this part of the lab <iframe src="https://drive.google.com/file/d/1Vq0p8L40-Og95vsTl4rVkVtJ80d40lXi/view?usp=sharing"width="640" height="480" allowfullscreen></iframe>
 
 We are going to be starting this section off on a clean slate, so in
 order to create a new packet tracer instance, go ahead and go up to the

@@ -2,6 +2,26 @@
 driveId: 1Vq0p8L40-Og95vsTl4rVkVtJ80d40lXi/preview
 ---
 
+---
+driveId2: 1-bTw6NCH7Udt1oVMIYEj6l72x1c_ghzQ/preview
+---
+
+---
+driveId3: 1rnK3X1EHTpNjw2CuWAwt565251uoIBEZ/preview
+---
+
+---
+driveId4: 1RW83UwDB7rq3b1ITzivdgwbU5bUS60hq/preview
+---
+
+---
+driveId5: 1AxJmuQ9Ao7HeRz-Y1BP2vWWZBVRUBRC1/preview
+---
+
+---
+driveId6: 1Oihzr9AoeQLf3DsxZje2zt2DFjAE-zQQ/preview
+---
+
 # Basic Network Setup - Packet Tracer
 
 ## Download and Setup Instructions:
@@ -37,7 +57,9 @@ using Packet Tracer.
 
 <img src="media\image1.png" style="width:6.5in;height:6.22222in" />
 
-## Communicating between Routers 
+## Communicating between Routers
+### Video to coincide with this part of the lab
+{% include googleDrivePlayer.html id=page.driveId %}
 
 ### Background Knowledge to cover before hand:
 
@@ -228,8 +250,8 @@ communication can sometimes drop. With this done, we are finished with
 our first section of Packet Tracer.
 
 ## Communicating between Two End Devices using Static Routing
-### Video to coniside with this part of the lab
-{% include googleDrivePlayer.html id=page.driveId %}
+### Video to coincide with this part of the lab
+{% include googleDrivePlayer.html id=page.driveId2 %}
 
 We are going to be starting this section off on a clean slate, so in
 order to create a new packet tracer instance, go ahead and go up to the
@@ -349,6 +371,13 @@ end devices. For test purposes, you can also go on PC1 and do a `ping
 192.168.2.2`, but with that, we are finished with another section.
 
 ## Router RIPv2 and OSPF:
+### Videos to coincide with this part of the lab:
+Static:
+{% include googleDrivePlayer.html id=page.driveId3 %}
+RIP:
+{% include googleDrivePlayer.html id=page.driveId4 %}
+OSPF:
+{% include googleDrivePlayer.html id=page.driveId5 %}
 
 Static routing works, however it does take a substantial amount of time
 to get it up and running, not to mention you need to be very specific
@@ -473,6 +502,8 @@ a router to run both and then translate those routes from one protocol
 to another. Just figured I would let you know!
 
 ## Setting up ASA:
+### Videos to coincide with this part of the lab:
+{% include googleDrivePlayer.html id=page.driveId6 %}
 
 For our last topic, we are going to do a brief discussion about the
 cisco ASA firewall, and how to configure it between a LAN and a DMZ. In

@@ -17,12 +17,12 @@ All lab guides are available online within this GitHub Page and are linked below
 To get started on setting up a Windows lab environment, clone this repository on a machine with `git` installed:
 
 ```
-git clone https://github.com/brandon-wilbur/cyberlabs
+git clone https://github.com/champlain-cyberlabs/cyberlabs
 ```
 
 **Note that scripts included in this repository will likely be detected by Antivirus software as malicious. These scripts are only meant to be run in a virtual machine and are intended to leave an environment vulnerable for training purposes.**
 
-Alternatively, download the latest archive of PowerShell scripts from [the releases section](https://github.com/brandon-wilbur/cyberlabs/releases) of this repository. All releases are protected with the password `infected` for easy download without the need to configure Antivirus exclusions. Unzip this archive in a virtual machine with Antivirus disabled to ensure that scripts run successfully.
+Alternatively, download the latest archive of PowerShell scripts from [the releases section](https://github.com/champlain-cyberlabs/cyberlabs/releases) of this repository. All releases are protected with the password `infected` for easy download without the need to configure Antivirus exclusions. Unzip this archive in a virtual machine with Antivirus disabled to ensure that scripts run successfully.
 
 ### Available Windows Labs
 

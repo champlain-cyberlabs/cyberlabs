@@ -344,8 +344,7 @@ be different from the example shown below.
 
 <img src="media\image8.png" style="width:5.67708in;height:2.11458in" />
 
-From the attacker machine with `Ncat` installed, type `nc
-<IP-ADDRESS> <PORT>` and substitute your IP address in and
+From the attacker machine with `Ncat` installed, type `nc <IP-ADDRESS> <PORT>` and substitute your IP address in and
 type one of the port numbers previously identified. If successful, a
 Windows command prompt should display on the attacker’s terminal. Type
 `whoami` after successfully connecting to view what user you are
